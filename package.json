@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "vite build --base=/ai-labs/ && git add dist -f && git commit -m 'Deploy' && git subtree push --prefix dist origin gh-pages"
+    "deploy": "vite build --base=/ai-labs/ && npx gh-pages --dist dist"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -17,6 +17,7 @@
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.0.0",
+    "gh-pages": "^4.0.0",
     "vite": "^3.0.0"
   }
 }
