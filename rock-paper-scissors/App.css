@@ -1,0 +1,28 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.move-btn {
+  padding: 8px;
+  margin: 8px;
+  will-change: filter;
+}
+.move-btn img {
+  height: 6em;
+  margin: 16px;
+  will-change: filter;
+}
+.move-btn img:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.move-btn p {
+  margin: 0 0 8px
+}
+
+.rounds-table {
+  margin-left: auto;
+  margin-right: auto;
+}
