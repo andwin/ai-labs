@@ -71,7 +71,7 @@ const renderRounds = (rounds) => {
           </tr>
         </thead>
         <tbody>
-        {rounds.reverse().map((entry, i) => {
+        {rounds.slice().reverse().map((entry, i) => {
           return (
             <tr key={i}>
               <td>{rounds.length - i}</td>
